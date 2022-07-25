@@ -1,0 +1,31 @@
+<div class="container d-flex justify-content-center mt-5">
+    <form class="row col-md-6 d-flex justify-content-center p-4 border border-primary border-3 rounded-3"
+        [formGroup]="register">
+        <div class="col-md-6 d-inline-flex justify-content-center p-4 my-5 border border-primary border-3 rounded-3">
+            <h1>Register</h1>
+        </div>
+        <div class="col-md-12 p-2">
+            <label for="firstname" class="form-label">First Name:</label>
+            <input type="text" id="firstname" class="form-control" name="firstname" formControlName="firstname">
+        </div>
+        <div class="col-md-12 p-2">
+            <label for="lastname" class="form-label">Last Name:</label>
+            <input type="text" id="lastname" class="form-control" name="lastname" formControlName="lastname">
+        </div>
+        <div class="col-md-12 p-2">
+            <label for="username" class="form-label">Username:</label>
+            <input type="text" id="username" class="form-control" name="username" formControlName="username">
+        </div>
+        <div class="col-md-12 p-2">
+            <label for="password" class="form-label">Password:</label>
+            <input type="password" id="password" class="form-control" name="password" formControlName="password">
+        </div>
+        <div class="col-md-12">
+            <button type="button" class="form-control btn btn-primary mt-3 p-2 fs-3"
+                (click)="registerSubmit(register.value)" [disabled]="register.invalid">Register</button>
+        </div>
+        <div class="col-md-12">
+            <button type="button" class="form-control btn btn-primary mt-3 p-2 fs-3" (click)="goLogin()">Login</button>
+        </div>
+    </form>
+</div>
