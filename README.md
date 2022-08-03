@@ -1,4 +1,4 @@
-#### Ömer Kavak Homework - 25.07.2022
+### Ömer Kavak Homework - 25.07.2022
 
 Bu uygulama Angular ile Front-End Bootcamp için geliştirilmiş bir form design uygulamasıdır.
 
