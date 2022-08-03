@@ -1,8 +1,8 @@
-# Ömer Kavak Homework
+#### Ömer Kavak Homework - 25.07.2022
 
 Bu uygulama Angular ile Front-End Bootcamp için geliştirilmiş bir form design uygulamasıdır.
 
-Uygulamada üç adet component kullanılmıştır ve bunlar componentler aşağıdaki gibidir;
+Uygulamada üç adet component kullanılmıştır ve bu componentler aşağıdaki gibidir;
 
 - AppComponent
 - LoginConponent
@@ -22,6 +22,3 @@ aracılığı ile yapılmaktadır.
 Form ile gönderilen değerler console ekranında görüntülenebilmektedir.
 
 Github'a yüklenmeden önce yapılan console incelemesinde herhangi bir hata bulunmamaktadır ve bu şekilde github'a yüklenmiştir.
-
-Ömer KAVAK
-25.07.2022
